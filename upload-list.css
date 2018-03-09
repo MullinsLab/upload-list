@@ -1,6 +1,6 @@
-/* Styles for file upload lists */
 .upload-list {
     min-height: 4em;
+    position: relative;
 }
 
 .upload-list ul {
@@ -25,4 +25,31 @@
  * cause spurious dragleave/dragenter events that we don't want. */
 .upload-list.active-dropzone * {
     pointer-events: none;
+}
+
+/* If the upload list is also a Bootstrap well, style any bare buttons into the
+ * bottom right corner nicely. */
+.upload-list.well > button.upload-list-clear,
+.upload-list.well > button.upload-list-add {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* If the upload list is also a Bootstrap well, style a button group into the
+ * bottom right corner nicely. */
+.upload-list.well .btn-group {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+}
+
+.upload-list.well .btn-group > button:first-child {
+    border-bottom-left-radius: 0;
+}
+
+.upload-list.well .btn-group > button:last-child {
+    border-top-right-radius: 0;
 }
