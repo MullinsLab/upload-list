@@ -171,7 +171,8 @@ window.UploadList = (function(){
     }
 
     // On form reset, update ourselves on the "next tick", which ensures that
-    // the input.files properties are actually cleared by the time our runs.
+    // the input.files properties are actually cleared by the time the update
+    // runs.
     //
     reset(ev) {
       setTimeout(() => { this.update() }, 1);
