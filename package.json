@@ -1,0 +1,14 @@
+{
+  "name": "upload-list",
+  "version": "1.0.0",
+  "description": "A minimal file upload widget wrapping standard file inputs with drag-and-drop behaviour",
+  "main": "upload-list.js",
+  "repository": "https://github.com/MullinsLab/upload-list",
+  "author": "Thomas Sibley <trsibley@uw.edu>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "optionalDependencies": {
+    "angular": "^1.5.8"
+  }
+}
