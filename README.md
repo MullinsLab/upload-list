@@ -85,6 +85,13 @@ much fancier with additional elements and behaviour, for example (using some
 </div>
 ```
 
+which results in:
+
+![Screenshot of above HTML when rendered, with no files selected](../../raw/master/examples/fancy-example-empty.png)
+
+![Screenshot of above HTML when rendered, with several files selected](../../raw/master/examples/fancy-example-with-files.png)
+
+
 [AngularJS]: https://angularjs.org
 
 
